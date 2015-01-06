@@ -7,19 +7,48 @@
 //
 
 import UIKit
+import Parse
+import ParseUI
 
-class ViewController: UIViewController {
-
+class ViewController: PFLogInViewController, PFLogInViewControllerDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.delegate = self
+        if((PFUser.currentUser()) != nil){
+            NSLog("User has logged in %@", PFUser.currentUser().email)
+            self.dismissViewControllerAnimated(true, completion: nil)
+        }
+        self.logInView.dismissButton.removeTarget(nil, action: nil, forControlEvents:UIControlEvents.AllEvents)
+        self.logInView.dismissButton.hidden = true
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
+    func logInViewController(logInController: PFLogInViewController!, didLogInUser user: PFUser!) {
+        if(PFUser.currentUser().email != nil){
+            self.dismissViewControllerAnimated(true, completion: nil)
+            NSLog("didLogInUser Called")
+        }
+        
+    }
+    
+    func logInViewController(logInController: PFLogInViewController!, shouldBeginLogInWithUsername username: String!, password: String!) -> Bool {
+         NSLog("didLogInUser Called")
+        return true
+    }
+    
+     func logInViewController(logInController: PFLogInViewController!, didFailToLogInWithError error: NSError!) {
+         NSLog("didLogInUser Called")
+    }
+    
+     func logInViewControllerDidCancelLogIn(logInController: PFLogInViewController!) {
+         NSLog("didLogInUser Called")
+    }
+    
 }
 
