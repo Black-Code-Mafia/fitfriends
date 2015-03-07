@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC5401901A81B9A500522C43 /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54018F1A81B9A500522C43 /* ActivityController.swift */; };
+		DC5401921A81D4DE00522C43 /* ActivityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5401911A81D4DE00522C43 /* ActivityAPI.swift */; };
+		DC65C79C1A99ABBD0065FE1A /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC65C79B1A99ABBD0065FE1A /* ActivityCell.swift */; };
 		DC7F4EF81A182F040070D7E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F4EF71A182F040070D7E5 /* AppDelegate.swift */; };
 		DC7F4EFA1A182F040070D7E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F4EF91A182F040070D7E5 /* ViewController.swift */; };
-		DC7F4EFD1A182F040070D7E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7F4EFB1A182F040070D7E5 /* Main.storyboard */; };
 		DC7F4EFF1A182F040070D7E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7F4EFE1A182F040070D7E5 /* Images.xcassets */; };
 		DC7F4F021A182F040070D7E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7F4F001A182F040070D7E5 /* LaunchScreen.xib */; };
 		DC7F4F0E1A182F040070D7E5 /* FitFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F4F0D1A182F040070D7E5 /* FitFriendsTests.swift */; };
@@ -31,7 +33,15 @@
 		DC7F4F381A1982660070D7E5 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7F4F371A1982660070D7E5 /* Social.framework */; };
 		DC7F4F3A1A19826E0070D7E5 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7F4F391A19826E0070D7E5 /* Accounts.framework */; };
 		DC7F4F3C1A19B6720070D7E5 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F4F3B1A19B6720070D7E5 /* DashboardViewController.swift */; };
+		DC93E2541A8C42C200E535FC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93E2531A8C42C200E535FC /* SwiftyJSON.swift */; };
+		DC93E2561A8C458C00E535FC /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC93E2551A8C458C00E535FC /* Activity.swift */; };
 		DC9840201A49E82C00DD40AB /* 150x150.gif in Resources */ = {isa = PBXBuildFile; fileRef = DC98401F1A49E82C00DD40AB /* 150x150.gif */; };
+		DCB9EEAC1AA22A2800C5B51A /* ActivitySearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB9EEAB1AA22A2800C5B51A /* ActivitySearchResults.swift */; };
+		DCB9EEAE1AA3FF6800C5B51A /* ActivityControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB9EEAD1AA3FF6800C5B51A /* ActivityControllerExtensions.swift */; };
+		DCB9EEB01AA4BE7000C5B51A /* LocationViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB9EEAF1AA4BE7000C5B51A /* LocationViewExtensions.swift */; };
+		DCC3DB4A1A9B7D5000343E2B /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC3DB491A9B7D5000343E2B /* LocationViewController.swift */; };
+		DCC3DB4C1A9B801A00343E2B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC3DB4B1A9B801A00343E2B /* MapKit.framework */; };
+		DCC3DB4F1A9BD2A100343E2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCC3DB4D1A9BD2A100343E2B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +55,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC54018F1A81B9A500522C43 /* ActivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityController.swift; sourceTree = "<group>"; };
+		DC5401911A81D4DE00522C43 /* ActivityAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityAPI.swift; sourceTree = "<group>"; };
+		DC65C79B1A99ABBD0065FE1A /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
 		DC7F4EF21A182F040070D7E5 /* FitFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7F4EF61A182F040070D7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC7F4EF71A182F040070D7E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC7F4EF91A182F040070D7E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC7F4EFC1A182F040070D7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC7F4EFE1A182F040070D7E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DC7F4F011A182F040070D7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DC7F4F071A182F040070D7E5 /* FitFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +86,15 @@
 		DC7F4F371A1982660070D7E5 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		DC7F4F391A19826E0070D7E5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		DC7F4F3B1A19B6720070D7E5 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		DC93E2531A8C42C200E535FC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		DC93E2551A8C458C00E535FC /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		DC98401F1A49E82C00DD40AB /* 150x150.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 150x150.gif; sourceTree = "<group>"; };
+		DCB9EEAB1AA22A2800C5B51A /* ActivitySearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitySearchResults.swift; sourceTree = "<group>"; };
+		DCB9EEAD1AA3FF6800C5B51A /* ActivityControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityControllerExtensions.swift; sourceTree = "<group>"; };
+		DCB9EEAF1AA4BE7000C5B51A /* LocationViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewExtensions.swift; sourceTree = "<group>"; };
+		DCC3DB491A9B7D5000343E2B /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		DCC3DB4B1A9B801A00343E2B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DCC3DB4E1A9BD2A100343E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +111,7 @@
 				DC7F4F321A1831A10070D7E5 /* SystemConfiguration.framework in Frameworks */,
 				DC7F4F281A1831740070D7E5 /* libz.dylib in Frameworks */,
 				DC7F4F251A1831300070D7E5 /* CoreGraphics.framework in Frameworks */,
+				DCC3DB4C1A9B801A00343E2B /* MapKit.framework in Frameworks */,
 				DC7F4F261A1831300070D7E5 /* CoreLocation.framework in Frameworks */,
 				DC7F4F211A1831110070D7E5 /* AudioToolbox.framework in Frameworks */,
 				DC7F4F221A1831110070D7E5 /* CFNetwork.framework in Frameworks */,
@@ -114,6 +135,7 @@
 		DC7F4EE91A182F040070D7E5 = {
 			isa = PBXGroup;
 			children = (
+				DCC3DB4B1A9B801A00343E2B /* MapKit.framework */,
 				DC98401E1A49E82C00DD40AB /* Images */,
 				DC7F4F391A19826E0070D7E5 /* Accounts.framework */,
 				DC7F4F371A1982660070D7E5 /* Social.framework */,
@@ -149,15 +171,24 @@
 		DC7F4EF41A182F040070D7E5 /* FitFriends */ = {
 			isa = PBXGroup;
 			children = (
+				DCC3DB4D1A9BD2A100343E2B /* Main.storyboard */,
+				DC93E2531A8C42C200E535FC /* SwiftyJSON.swift */,
 				DC7F4EF71A182F040070D7E5 /* AppDelegate.swift */,
 				DC7F4EF91A182F040070D7E5 /* ViewController.swift */,
-				DC7F4EFB1A182F040070D7E5 /* Main.storyboard */,
 				DC7F4EFE1A182F040070D7E5 /* Images.xcassets */,
 				DC7F4F001A182F040070D7E5 /* LaunchScreen.xib */,
 				DC7F4EF51A182F040070D7E5 /* Supporting Files */,
 				DC7F4F351A18327C0070D7E5 /* FitFriends.m */,
 				DC7F4F341A18327C0070D7E5 /* FitFriends-Bridging-Header.h */,
 				DC7F4F3B1A19B6720070D7E5 /* DashboardViewController.swift */,
+				DC54018F1A81B9A500522C43 /* ActivityController.swift */,
+				DCB9EEAD1AA3FF6800C5B51A /* ActivityControllerExtensions.swift */,
+				DC5401911A81D4DE00522C43 /* ActivityAPI.swift */,
+				DC93E2551A8C458C00E535FC /* Activity.swift */,
+				DC65C79B1A99ABBD0065FE1A /* ActivityCell.swift */,
+				DCC3DB491A9B7D5000343E2B /* LocationViewController.swift */,
+				DCB9EEAF1AA4BE7000C5B51A /* LocationViewExtensions.swift */,
+				DCB9EEAB1AA22A2800C5B51A /* ActivitySearchResults.swift */,
 			);
 			path = FitFriends;
 			sourceTree = "<group>";
@@ -244,6 +275,11 @@
 				TargetAttributes = {
 					DC7F4EF11A182F040070D7E5 = {
 						CreatedOnToolsVersion = 6.0.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					DC7F4F061A182F040070D7E5 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -275,10 +311,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC7F4EFD1A182F040070D7E5 /* Main.storyboard in Resources */,
 				DC7F4F021A182F040070D7E5 /* LaunchScreen.xib in Resources */,
 				DC7F4EFF1A182F040070D7E5 /* Images.xcassets in Resources */,
 				DC9840201A49E82C00DD40AB /* 150x150.gif in Resources */,
+				DCC3DB4F1A9BD2A100343E2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,10 +332,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB9EEAE1AA3FF6800C5B51A /* ActivityControllerExtensions.swift in Sources */,
 				DC7F4EFA1A182F040070D7E5 /* ViewController.swift in Sources */,
+				DC5401921A81D4DE00522C43 /* ActivityAPI.swift in Sources */,
 				DC7F4F361A18327C0070D7E5 /* FitFriends.m in Sources */,
 				DC7F4EF81A182F040070D7E5 /* AppDelegate.swift in Sources */,
+				DC65C79C1A99ABBD0065FE1A /* ActivityCell.swift in Sources */,
+				DCC3DB4A1A9B7D5000343E2B /* LocationViewController.swift in Sources */,
+				DC5401901A81B9A500522C43 /* ActivityController.swift in Sources */,
+				DC93E2541A8C42C200E535FC /* SwiftyJSON.swift in Sources */,
+				DC93E2561A8C458C00E535FC /* Activity.swift in Sources */,
 				DC7F4F3C1A19B6720070D7E5 /* DashboardViewController.swift in Sources */,
+				DCB9EEAC1AA22A2800C5B51A /* ActivitySearchResults.swift in Sources */,
+				DCB9EEB01AA4BE7000C5B51A /* LocationViewExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,20 +367,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DC7F4EFB1A182F040070D7E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DC7F4EFC1A182F040070D7E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DC7F4F001A182F040070D7E5 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				DC7F4F011A182F040070D7E5 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		DCC3DB4D1A9BD2A100343E2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC3DB4E1A9BD2A100343E2B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
