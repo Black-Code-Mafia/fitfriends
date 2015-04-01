@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC5005461AACCCF60085A89F /* ActivitiesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5005451AACCCF60085A89F /* ActivitiesController.swift */; };
+		DC5005481AACE0D50085A89F /* ActivitiesControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5005471AACE0D50085A89F /* ActivitiesControllerExtensions.swift */; };
 		DC5401901A81B9A500522C43 /* ActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC54018F1A81B9A500522C43 /* ActivityController.swift */; };
 		DC5401921A81D4DE00522C43 /* ActivityAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5401911A81D4DE00522C43 /* ActivityAPI.swift */; };
 		DC65C79C1A99ABBD0065FE1A /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC65C79B1A99ABBD0065FE1A /* ActivityCell.swift */; };
 		DC7F4EF81A182F040070D7E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F4EF71A182F040070D7E5 /* AppDelegate.swift */; };
-		DC7F4EFA1A182F040070D7E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F4EF91A182F040070D7E5 /* ViewController.swift */; };
+		DC7F4EFA1A182F040070D7E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F4EF91A182F040070D7E5 /* LoginViewController.swift */; };
 		DC7F4EFF1A182F040070D7E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7F4EFE1A182F040070D7E5 /* Images.xcassets */; };
 		DC7F4F021A182F040070D7E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC7F4F001A182F040070D7E5 /* LaunchScreen.xib */; };
 		DC7F4F0E1A182F040070D7E5 /* FitFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7F4F0D1A182F040070D7E5 /* FitFriendsTests.swift */; };
@@ -55,13 +57,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6FACA627A6C605F2DF4FF250 /* Pods-FitFriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFriends.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitFriends/Pods-FitFriends.release.xcconfig"; sourceTree = "<group>"; };
+		DC5005451AACCCF60085A89F /* ActivitiesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesController.swift; sourceTree = "<group>"; };
+		DC5005471AACE0D50085A89F /* ActivitiesControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesControllerExtensions.swift; sourceTree = "<group>"; };
 		DC54018F1A81B9A500522C43 /* ActivityController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityController.swift; sourceTree = "<group>"; };
 		DC5401911A81D4DE00522C43 /* ActivityAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityAPI.swift; sourceTree = "<group>"; };
 		DC65C79B1A99ABBD0065FE1A /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
 		DC7F4EF21A182F040070D7E5 /* FitFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7F4EF61A182F040070D7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC7F4EF71A182F040070D7E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC7F4EF91A182F040070D7E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC7F4EF91A182F040070D7E5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DC7F4EFE1A182F040070D7E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DC7F4F011A182F040070D7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DC7F4F071A182F040070D7E5 /* FitFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +100,7 @@
 		DCC3DB491A9B7D5000343E2B /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		DCC3DB4B1A9B801A00343E2B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DCC3DB4E1A9BD2A100343E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E503D7653430EBA7DD020900 /* Pods-FitFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitFriends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitFriends/Pods-FitFriends.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30136A92F33E6D6E6BA6F7CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73A965CCDFF92736F8DA9E3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E503D7653430EBA7DD020900 /* Pods-FitFriends.debug.xcconfig */,
+				6FACA627A6C605F2DF4FF250 /* Pods-FitFriends.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DC7F4EE91A182F040070D7E5 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +178,8 @@
 				DC7F4EF41A182F040070D7E5 /* FitFriends */,
 				DC7F4F0A1A182F040070D7E5 /* FitFriendsTests */,
 				DC7F4EF31A182F040070D7E5 /* Products */,
+				73A965CCDFF92736F8DA9E3C /* Pods */,
+				30136A92F33E6D6E6BA6F7CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,7 +198,7 @@
 				DCC3DB4D1A9BD2A100343E2B /* Main.storyboard */,
 				DC93E2531A8C42C200E535FC /* SwiftyJSON.swift */,
 				DC7F4EF71A182F040070D7E5 /* AppDelegate.swift */,
-				DC7F4EF91A182F040070D7E5 /* ViewController.swift */,
+				DC7F4EF91A182F040070D7E5 /* LoginViewController.swift */,
 				DC7F4EFE1A182F040070D7E5 /* Images.xcassets */,
 				DC7F4F001A182F040070D7E5 /* LaunchScreen.xib */,
 				DC7F4EF51A182F040070D7E5 /* Supporting Files */,
@@ -189,6 +213,8 @@
 				DCC3DB491A9B7D5000343E2B /* LocationViewController.swift */,
 				DCB9EEAF1AA4BE7000C5B51A /* LocationViewExtensions.swift */,
 				DCB9EEAB1AA22A2800C5B51A /* ActivitySearchResults.swift */,
+				DC5005451AACCCF60085A89F /* ActivitiesController.swift */,
+				DC5005471AACE0D50085A89F /* ActivitiesControllerExtensions.swift */,
 			);
 			path = FitFriends;
 			sourceTree = "<group>";
@@ -333,12 +359,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCB9EEAE1AA3FF6800C5B51A /* ActivityControllerExtensions.swift in Sources */,
-				DC7F4EFA1A182F040070D7E5 /* ViewController.swift in Sources */,
+				DC7F4EFA1A182F040070D7E5 /* LoginViewController.swift in Sources */,
 				DC5401921A81D4DE00522C43 /* ActivityAPI.swift in Sources */,
 				DC7F4F361A18327C0070D7E5 /* FitFriends.m in Sources */,
+				DC5005461AACCCF60085A89F /* ActivitiesController.swift in Sources */,
 				DC7F4EF81A182F040070D7E5 /* AppDelegate.swift in Sources */,
 				DC65C79C1A99ABBD0065FE1A /* ActivityCell.swift in Sources */,
 				DCC3DB4A1A9B7D5000343E2B /* LocationViewController.swift in Sources */,
+				DC5005481AACE0D50085A89F /* ActivitiesControllerExtensions.swift in Sources */,
 				DC5401901A81B9A500522C43 /* ActivityController.swift in Sources */,
 				DC93E2541A8C42C200E535FC /* SwiftyJSON.swift in Sources */,
 				DC93E2561A8C458C00E535FC /* Activity.swift in Sources */,
@@ -467,6 +495,7 @@
 		};
 		DC7F4F121A182F040070D7E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E503D7653430EBA7DD020900 /* Pods-FitFriends.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -485,6 +514,7 @@
 		};
 		DC7F4F131A182F040070D7E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FACA627A6C605F2DF4FF250 /* Pods-FitFriends.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;

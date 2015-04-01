@@ -18,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         Parse.setApplicationId("hgDL7q6XGrIfu3256DWhsDut5j0yf375JLoRcb9T", clientKey: "BnUgXXmZQWjzoE0vTZA5HmBKKVBjTJ8BfG1PJJUN")
+        
+        setUpAppUI()
         return true
     }
 
@@ -41,6 +43,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func setUpAppUI(){
+        UINavigationBar.appearance().barTintColor = UIColor(red: 78.0/255.0, green: 206.0/255.0, blue: 192.0/255.0, alpha: 1)
+        
+        
+        
     }
 
 

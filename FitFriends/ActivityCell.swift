@@ -9,5 +9,8 @@
 import UIKit
 
 class ActivityCell: UITableViewCell {
-    
+    @IBOutlet weak var backgroundImage: UIImageView!
+    @IBOutlet weak var tags: UILabel!
+    @IBOutlet weak var activityName: UILabel!
+    @IBOutlet weak var activityDuration: UILabel!
 }

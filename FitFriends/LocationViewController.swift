@@ -49,12 +49,13 @@ class LocationViewController:UIViewController, CLLocationManagerDelegate, MKMapV
    
     
     func mapView(mapView: MKMapView!, didUpdateUserLocation userLocation: MKUserLocation!){
-        var region:MKCoordinateRegion = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 800, 800);
+        var region:MKCoordinateRegion = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 9000, 9000);
         self.map.setRegion(self.map.regionThatFits(region),animated:true)    }
     
     func locationManager (manager:CLLocationManager!, didUpdateLocations locations:[AnyObject]!) {
         let firstlocation = locations.first as? CLLocation
         if ((firstlocation) != nil) {
+            var point = MKPointAnnotation()
             self.map.setCenterCoordinate((firstlocation?.coordinate)!, animated: true)
         }
         
